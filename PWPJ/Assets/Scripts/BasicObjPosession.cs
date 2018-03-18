@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BasicObjPosession : MonoBehaviour {
-
+    /*
     public bool isPos;
 
     GameObject objPosessed;
@@ -41,13 +41,10 @@ public class BasicObjPosession : MonoBehaviour {
                     objPosessed = other.gameObject;
                     basicPos();
                 }
-                /*
-                else if(isPos == true)
+                else if (isPos == true)
                 {
-                    gameObject.transform.position = lastPos.position;
-                    isPos = false;
+
                 }
-                */   
             }
         }
     }
@@ -60,5 +57,5 @@ public class BasicObjPosession : MonoBehaviour {
         gameObject.transform.position = objPosessed.transform.position;
         isPos = true;
     }
-
+*/
 }
