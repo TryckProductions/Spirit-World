@@ -285,6 +285,10 @@
     <Compile Include="Assets\Scripts\ArmorTF.cs" />
     <Compile Include="Assets\Scripts\BasicObjPosession.cs" />
     <Compile Include="Assets\Scripts\DemonTF.cs" />
+    <Compile Include="Assets\Scripts\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\EntityScript.cs" />
+    <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerAction.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
   </ItemGroup>

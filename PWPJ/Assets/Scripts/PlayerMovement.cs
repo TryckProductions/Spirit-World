@@ -8,9 +8,11 @@ public class PlayerMovement : MonoBehaviour {
     private float HorMulti = 1.3f;  //Increasing the Move Speed When Walking Horizontally
 
     Rigidbody2D pRgd; //Declaring The Player's Rigidbody Variable
+    LevelManager lvlM;
 	// Use this for initialization
 	void Start () {
         pRgd = gameObject.GetComponent<Rigidbody2D>();  //Attatching the Player's Rigidbody Variable to an ingame Rigidbody
+        lvlM = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 	}
 	
 	// Update is called once per frame
@@ -20,7 +22,10 @@ public class PlayerMovement : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        pMove();  //Runs the pMove() Function
+        if (lvlM.MODE == 1)
+        {
+            pMove();  //Runs the pMove() Function
+        }
     }
 
     private void pMove()
