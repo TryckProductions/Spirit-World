@@ -30,11 +30,11 @@ public class LevelManager : MonoBehaviour {
 
     private void Mode1()
     {
-        GameObject.Find("DiaHolder").transform.GetChild(0).gameObject.SetActive(false);
+        //GameObject.Find("DiaHolder").transform.GetChild(0).gameObject.SetActive(false);
     }
 
     private void Mode2()
     {
-        GameObject.Find("DiaHolder").transform.GetChild(0).gameObject.SetActive(true);
+        //GameObject.Find("DiaHolder").transform.GetChild(0).gameObject.SetActive(true);
     }
 }
