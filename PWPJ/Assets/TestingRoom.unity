@@ -88,7 +88,6 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -6943,7 +6942,6 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -9683,6 +9681,7 @@ GameObject:
   - component: {fileID: 1939092507}
   - component: {fileID: 1939092506}
   - component: {fileID: 1939092510}
+  - component: {fileID: 1939092511}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -9875,6 +9874,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1939092511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1939092501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732ac20d11d9b52498b1c6074d35b2f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponSel: 0
+  colorLvl: 1
+  CrimSword: {fileID: 1820975586208986, guid: 66a7fb9d729ab15408ee72e9c2defb61, type: 2}
 --- !u!1 &1943309468
 GameObject:
   m_ObjectHideFlags: 0
